@@ -16,10 +16,14 @@
 </template>
 
 <script>
+/* eslint-disable */
 import BaseLayout from "./BaseLayout";
 export default {
   data() {
     return {};
+  },
+  mounted() {
+    console.log(BaseLayout);
   },
   components: {
     BaseLayout

@@ -17,6 +17,10 @@ export default new Router({
       path: "/slotProps",
       name: "插槽传值",
       component: () => import("./views/slotProps")
+    }, {
+      path: "/extend",
+      name: "VueApi",
+      component: () => import("./views/global")
     }
   ]
 })

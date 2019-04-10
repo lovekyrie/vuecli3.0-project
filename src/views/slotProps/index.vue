@@ -1,5 +1,7 @@
 <template>
-  <current-user>{{user.firstName}}</current-user>
+  <current-user>
+    <template v-slot:default="slotProps">{{slotProps.user.firstName}}</template>
+  </current-user>
 </template>
 
 <script>

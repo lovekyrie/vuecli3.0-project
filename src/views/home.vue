@@ -20,6 +20,10 @@ export default {
         {
           link: "/slotProps",
           name: "传递属性"
+        },
+        {
+          link: "/extend",
+          name: "Vue.extend"
         }
       ]
     };
