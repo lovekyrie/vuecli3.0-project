@@ -2,7 +2,7 @@
   <div>
     <template v-for="item in navList">
       <div :key="item.link">
-        <router-link :to="item.link">{{item.name}}</router-link>
+        <router-link :to="item.link">{{ item.name }}</router-link>
       </div>
     </template>
   </div>
@@ -15,19 +15,19 @@ export default {
       navList: [
         {
           link: "/slot",
-          name: "插槽"
+          name: "插槽",
         },
         {
           link: "/slotProps",
-          name: "传递属性"
+          name: "传递属性",
         },
         {
           link: "/extend",
-          name: "Vue.extend"
-        }
-      ]
+          name: "Vue.extend",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
