@@ -1,11 +1,12 @@
 <template>
   <div>
-    <template v-for="item in navList">
-      <div :key="item.link">
+  gdfgdfkj
+    <template v-for="item in navList" :key="item.link">
+      <div>
         <router-link :to="item.link">{{ item.name }}</router-link>
       </div>
     </template>
-  </div>
+  </div>         
 </template>
 
 <script>
