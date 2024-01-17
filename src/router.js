@@ -22,10 +22,20 @@ const routes = [
     name: 'VueApi',
     component: () => import('./views/global'),
   },
+  {
+    path: '/echarts',
+    name: 'Echarts',
+    component: () => import('./views/echarts')
+  },
+  {
+    path: '/simple',
+    name: '折线图',
+    component: () => import('./views/simple')
+  }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory,
+  history: createWebHashHistory(),
   routes,
 })
 

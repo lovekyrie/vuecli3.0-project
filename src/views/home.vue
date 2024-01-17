@@ -26,6 +26,14 @@ export default {
           link: "/extend",
           name: "Vue.extend",
         },
+        {
+          link: "/echarts",
+          name: "Echats"
+        },
+        {
+          link: "/simple",
+          name: 'Simple'
+        }
       ],
     };
   },
