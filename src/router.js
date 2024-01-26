@@ -31,6 +31,11 @@ const routes = [
     path: '/simple',
     name: '折线图',
     component: () => import('./views/simple')
+  },
+  {
+    path: '/line',
+    name: '指示线拼接',
+    component: () => import('./views/lineConected/index')
   }
 ]
 

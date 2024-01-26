@@ -33,6 +33,10 @@ export default {
         {
           link: "/simple",
           name: 'Simple'
+        },
+        {
+          link: "/line",
+          name: 'Line'
         }
       ],
     };
