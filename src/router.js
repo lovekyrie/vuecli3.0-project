@@ -36,6 +36,11 @@ const routes = [
     path: '/line',
     name: '指示线拼接',
     component: () => import('./views/lineConected/index')
+  },
+  {
+    path: '/xaxis',
+    name: '横坐标自定义',
+    component: () => import('./views/customizeXaxis/index')
   }
 ]
 

@@ -37,6 +37,10 @@ export default {
         {
           link: "/line",
           name: 'Line'
+        },
+        {
+          link: '/xaxis',
+          name: 'Xaxis'
         }
       ],
     };
