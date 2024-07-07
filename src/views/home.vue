@@ -41,6 +41,10 @@ export default {
         {
           link: '/xaxis',
           name: 'Xaxis'
+        },
+        {
+          link: '/transfer',
+          name: '排序'
         }
       ],
     };

@@ -41,6 +41,11 @@ const routes = [
     path: '/xaxis',
     name: '横坐标自定义',
     component: () => import('./views/customizeXaxis/index')
+  },
+  {
+    path: '/transfer',
+    name: '排序',
+    component: () => import('./views/transfer/index')
   }
 ]
 

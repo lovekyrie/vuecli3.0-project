@@ -48,7 +48,23 @@ option = {
     }
   ],
   tooltip: {
-    trigger: 'axis'
+    trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        },
+        formatter: function (params) {
+            return '{value|' + params[0].value + '}';
+        },
+        rich: {
+            value: {
+                color: '#F00',
+                fontSize: 16,
+
+                padding: [5, 10],
+                align: 'center'
+
+            }
+        }
   },
   xAxis: [
     {
