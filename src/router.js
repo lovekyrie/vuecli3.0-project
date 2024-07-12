@@ -46,6 +46,11 @@ const routes = [
     path: '/transfer',
     name: '排序',
     component: () => import('./views/transfer/index')
+  },
+  {
+    path: '/border',
+    name: '边框',
+    component: () => import('./views/roundedBorder/index')
   }
 ]
 

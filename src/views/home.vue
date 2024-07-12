@@ -45,6 +45,10 @@ export default {
         {
           link: '/transfer',
           name: '排序'
+        },
+        {
+          link: '/border',
+          name: '边框'
         }
       ],
     };
