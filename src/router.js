@@ -35,13 +35,24 @@ const routes = [
   {
     path: '/line',
     name: '指示线拼接',
-    component: () => import('./views/lineConected/index')
+    component: () => import('./views/lineConected/indexAi.vue')
   },
   {
     path: '/xaxis',
     name: '横坐标自定义',
     component: () => import('./views/customizeXaxis/index')
+  },
+  {
+    path: '/dataset',
+    name: '数据集使用demo',
+    component: () => import('./views/dataset/index1')
+  },
+  {
+    path: '/order',
+    name: '执行顺序',
+    component: () => import('./views/parent/index')
   }
+
 ]
 
 const router = createRouter({

@@ -48,7 +48,18 @@ option = {
     }
   ],
   tooltip: {
-    trigger: 'axis'
+    trigger: 'axis',
+    renderMode: 'richText',
+    formatter: [
+    '{a|这段文本采用样式a}',
+    '{b|这段文本采用样式b}这段用默认样式{x|这段用样式x}'
+  ].join('\n'),
+    rich: {
+     a: {
+        color: 'red',
+        lineHeight: 10
+      },
+    }
   },
   xAxis: [
     {

@@ -41,6 +41,14 @@ export default {
         {
           link: '/xaxis',
           name: 'Xaxis'
+        },
+        {
+          link: '/dataset',
+          name: 'Dataset'
+        },
+        {
+          link: '/order',
+          name: 'component setup order'
         }
       ],
     };
