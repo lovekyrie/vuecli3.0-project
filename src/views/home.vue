@@ -49,6 +49,14 @@ export default {
         {
           link: '/order',
           name: 'component setup order'
+        },
+        {
+          link: '/transfer',
+          name: '排序'
+        },
+        {
+          link: '/border',
+          name: '边框'
         }
       ],
     };

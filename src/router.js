@@ -51,8 +51,17 @@ const routes = [
     path: '/order',
     name: '执行顺序',
     component: () => import('./views/parent/index')
+  },
+  {
+    path: '/transfer',
+    name: '排序',
+    component: () => import('./views/transfer/index')
+  },
+  {
+    path: '/border',
+    name: '边框',
+    component: () => import('./views/roundedBorder/index')
   }
-
 ]
 
 const router = createRouter({
